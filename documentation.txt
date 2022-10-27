@@ -5,6 +5,15 @@
 -> git commit -m "description"
 -> git push -u origin
 
+//PULL FROM REPOSITORY TO LOCAL
+-> git pull origin branchName
+
+//SWITCH TO DIFFERENT BRANCH
+-> git checkout branchname
+
+//SWITCH TO DIFFERENT BRANCH OR CREATE
+-> git checkout -b branchname
+
 //MERGE BRANCHES
 -> git fetch origin master    
 -> git merge master    
@@ -15,7 +24,7 @@
 -> git remote set-url origin {your-new-url}
 
 //TO CORRECT THE ERROR: "fatal: The current branch main has no upstream branch."
-git push --set-upstream docs main
+-> git push --set-upstream docs main
 
 //COMMAND TO CHECK WICH REPOSITORIES ARE CONNECTED
 -> git remote -v
