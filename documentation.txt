@@ -2,3 +2,28 @@
 -> git init
 -> git add .
 -> git remote add origin repoUrl
+-> git commit -m "description"
+-> git push -u origin
+
+//MERGE BRANCHES
+-> git fetch origin master    
+-> git merge master    
+-> git push origin development:master
+
+
+//SET THE URL OF A REPOSITORY
+-> git remote set-url origin {your-new-url}
+
+//TO CORRECT THE ERROR: "fatal: The current branch main has no upstream branch."
+git push --set-upstream docs main
+
+//COMMAND TO CHECK WICH REPOSITORIES ARE CONNECTED
+-> git remote -v
+
+//CONFIG GITHUB ACCOUNT
+-> git config --global user.name "John Doe"
+-> git config --global user.email "johndoe@email.com"
+
+
+//HELPER LINKS
+PUSH TO A SPECIFIC BRANCH -> "https://dev.to/learn_flutter_with_smrity/how-to-upload-flutter-project-on-github-bring-remote-repo-locally-a-z-2022-2l3i"
