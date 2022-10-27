@@ -33,6 +33,9 @@
 -> git config --global user.name "John Doe"
 -> git config --global user.email "johndoe@email.com"
 
+//RESET COMMANDS
+-> git reset --hard HEAD
+
 
 //HELPER LINKS
 PUSH TO A SPECIFIC BRANCH -> "https://dev.to/learn_flutter_with_smrity/how-to-upload-flutter-project-on-github-bring-remote-repo-locally-a-z-2022-2l3i"
