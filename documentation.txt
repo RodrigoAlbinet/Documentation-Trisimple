@@ -5,6 +5,13 @@
 -> git commit -m "description"
 -> git push -u origin
 
+//SAVE A SPECIFIC FILE TO A SPECIFIC BRANCH
+-> git init
+-> git add path/to/your/file.txt
+-> git commit -m "descriprion"
+-> git branch -M origin
+-> git push -u origin BranchName
+
 //PULL FROM REPOSITORY TO LOCAL
 -> git pull origin branchName
 
